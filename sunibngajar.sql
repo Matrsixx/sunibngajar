@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 20, 2023 at 07:41 AM
+-- Generation Time: Nov 20, 2023 at 01:23 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -35,16 +35,17 @@ CREATE TABLE `users` (
   `nim` varchar(10) NOT NULL,
   `major` varchar(255) NOT NULL,
   `ipk` varchar(255) NOT NULL,
-  `phonenumber` varchar(255) NOT NULL
+  `phonenumber` varchar(255) NOT NULL,
+  `role` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `fullname`, `email`, `password`, `nim`, `major`, `ipk`, `phonenumber`) VALUES
-(1, 'Devan Valencio', 'devan.valencio@binus.ac.id', 'test123', '2540115143', 'Cyber Security', '4.00', '081234567890'),
-(3, 'Stephan Chandra', 'stephan.chandra@binus.ac.id', 'test123', '2540122792', 'Cyber Security', '3.92', '081234567890');
+INSERT INTO `users` (`id`, `fullname`, `email`, `password`, `nim`, `major`, `ipk`, `phonenumber`, `role`) VALUES
+(1, 'Devan Valencio', 'devan.valencio@binus.ac.id', 'test123', '2540115143', 'Cyber Security', '4.00', '081234567890', 'student'),
+(3, 'Stephan Chandra', 'stephan.chandra@binus.ac.id', 'test123', '2540122792', 'Cyber Security', '3.92', '081234567890', 'teacher');
 
 --
 -- Indexes for dumped tables
