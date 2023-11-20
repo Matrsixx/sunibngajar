@@ -1,0 +1,123 @@
+.header-central{
+    display: flex;
+    width: 1452px;
+    justify-content: center;
+    align-items: center;
+    gap: 554px;
+}
+
+.header-left{
+    display: flex;
+    width: 522.954px;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    flex-shrink: 0;
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+#img-logo{
+    width: 94.708px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+#header-left-text{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+
+#header-right-about{
+    color: var(--black, #444B59);
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+#header-right-signup{
+    color: var(--black, #444B59);
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+#header-right-svg{
+    width: 36px;
+    height: 36px;
+}
+
+.content-text{
+    display: inline-block;
+    text-align: left;
+}
+
+#text{
+    color: #444B59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+#text-box{
+    display: flex;
+    width: 750px;
+    height: 5px;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 80px;
+    border: 2px solid var(--dark-blue-18, #789ADE);
+    background: var(--white, #FFF);
+}
+
+.checkbox-box{
+    display: flex;
+}
+
+#checkbox-text{
+    color: #444B59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.register-line{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#register-button{
+    font-size: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    border-radius: 205px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
