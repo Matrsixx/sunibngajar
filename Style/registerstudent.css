@@ -47,6 +47,8 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    text-decoration: none;
+    transform: translateY(20px);
 }
 
 #header-right-signup{
@@ -58,6 +60,8 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    text-decoration: none;
+    transform: translateY(20px);
 }
 .register-data{
     text-align: left;
@@ -129,7 +133,8 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    color: white
+    color: white;
+    transform: translateY(10px);
 }
 
 #or-continue{

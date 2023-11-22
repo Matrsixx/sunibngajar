@@ -1,0 +1,453 @@
+.rectangle 
+{
+position: absolute;
+width: 1920px;
+height: 117px;
+left: 0px;
+top: 0px;
+
+background: #8AC0FF;
+}
+
+.img1 {
+    position: absolute;
+    left: 20px;
+    width: 20px; 
+    
+}
+
+
+.listbox-component {
+    position: absolute;
+    width: 180px;
+    height: 247px;
+    right: 0; 
+    top: 0; 
+}
+
+
+.listbox-title {
+    position: absolute;
+    visibility: hidden;
+    left: 4.55%;
+    right: 4.55%;
+    top: 0%;
+    bottom: 93.08%;
+}
+
+.listbox-main {
+    position: absolute;
+    left: 4.55%;
+    right: 4.55%;
+    top: 9.69%;
+    bottom: 69.55%;
+}
+
+.listbox-bg {
+    position: absolute;
+    left: 4.55%;
+    right: 4.55%;
+    top: 9.69%;
+    bottom: 69.55%;
+    background: #FFFFFF;
+    box-shadow: 0px 4.38961px 15.3636px rgba(0, 0, 0, 0.1);
+    border-radius: 8.77922px;
+}
+
+
+.chevron {
+    position: absolute;
+    left: 85.07%;
+    right: 11.69%;
+    top: 19.38%;
+    bottom: 78.89%;
+    opacity: 0.8;
+    border: 1.53636px solid #000000;
+}
+
+
+.placeholder-text {
+    position: absolute;
+    visibility: hidden;
+    left: 9.74%;
+    right: 30.52%;
+    top: 16.61%;
+    bottom: 76.47%;
+}
+
+
+.clip-list {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 9.69%;
+    bottom: 0%;
+}
+
+
+.dropdown-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 1.1px;
+    position: absolute;
+    height: 1.1px;
+    left: 4.55%;
+    right: 4.55%;
+    top: 74.62px;
+    opacity: 0;
+    filter: drop-shadow(0px 4.38961px 15.3636px rgba(0, 0, 0, 0.1));
+    border-radius: 8.77922px;
+}
+
+/* Item 1 */
+.item-1 {
+    width: 163.64px;
+    height: 48.29px;
+    background: #FFFFFF;
+}
+
+/* 1 */
+.one {
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 17.56px;
+    top: 13.17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5584px;
+    line-height: 21px;
+    color: #333333;
+}
+
+/* Item 2 */
+.item-2 {
+    width: 163.64px;
+    height: 48.29px;
+    background: #FFFFFF;
+}
+
+/* 2 */
+.two {
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    left: 17.56px;
+    top: 13.17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5584px;
+    line-height: 21px;
+    color: #333333;
+}
+
+
+
+.sunibngajar
+{
+    position: absolute;
+    width: 127.48px;
+    height: 12px;
+    left: 20.12px;
+    top: 90.57px;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    width: 509px;
+    height: 27px;
+    right: 442px;
+    top: 45px;
+}
+
+.menu-item {
+    width: 210px;
+    height: 27px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #444B59;;
+}
+
+.course-item {
+    width: 73px;
+    height: 27px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #444B59;
+}
+
+.about-item {
+    width: 66px; 
+    height: 27px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #444B59;
+}
+
+
+.rectangle1 {
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 117px;
+    background: #F0F7FF;
+}
+
+
+.pic {
+    position: absolute;
+    width: 348.07px;
+    height: 338.22px;
+    left: 49%; 
+    margin-left: -174.04px;
+    top: 229px;
+    background: url(logo.png) center/contain no-repeat;
+    transform: translateX(60px);
+}
+
+
+.founder {
+    position: absolute;
+    width: 620px;
+    height: 136px;
+    left: 50%; 
+    margin-left: -310px;
+    top: 1403px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+
+.judulteacherinfo {
+    position: absolute;
+    width: 620px;
+    height: 136px;
+    left: 54%; 
+    margin-left: -310px; 
+    top: 635px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+
+.teacher-info {
+    position: absolute;
+    width: 829px;
+    height: 66px;
+    left: 50%; 
+    margin-left: -414.5px; 
+    top: 703px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+
+.history {
+    position: absolute;
+    width: 620px;
+    height: 136px;
+    left: 50%; 
+    margin-left: -310px; 
+    top: 943px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+.cerita {
+    position: absolute;
+    width: 279px;
+    height: 272px;
+    left: 40%; 
+    margin-left: -139.5px; 
+    top: 1023px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+.cerita2 {
+    position: absolute;
+    width: 279px;
+    height: 272px;
+    left: 60%; 
+    margin-left: -139.5px; 
+    top: 1023px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+
+.org {
+    position: absolute;
+    width: 829px;
+    height: 66px;
+    left: 50%; 
+    margin-left: -414.5px; 
+    top: 1471px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D4ED8;
+}
+
+
+
+.bawah
+{
+position: absolute;
+width: 1920px;
+height: 152px;
+left: 0px;
+top: 1600px;
+background: #001131;
+}
+
+.kontekus
+{
+position: absolute;
+width: 829px;
+height: 66px;
+left: 5%; 
+margin-left: -414.5px; 
+top: 1635px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.03em;
+z-index: 1;
+color: #ffffff;
+
+}
+
+.followus
+{
+position: absolute;
+width: 829px;
+height: 66px;
+left: 1400px; 
+margin-left: -414.5px; 
+top: 1635px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: right;
+letter-spacing: -0.03em;
+z-index: 1;
+color: #ffffff;
+
+}
+
+.Logomail {
+    width: 5px; 
+    height: 5px;
+    left: 5%; 
+    top: 1635px;
+    z-index: 1;
+}
+
+.email {
+    width: 5px; 
+    position: absolute;
+    width: 829px;
+    height: 66px;
+    left: 465px; 
+    margin-left: -414.5px; 
+    top: 1665px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: left;
+    letter-spacing: -0.03em;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.no {
+    position: absolute;
+    width: 829px;
+    height: 66px;
+    left:465px; 
+    margin-left: -414.5px; 
+    top: 1700px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: left;
+    letter-spacing: -0.03em;
+    z-index: 1;
+    color: #ffffff;
+}

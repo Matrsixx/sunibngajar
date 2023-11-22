@@ -63,7 +63,7 @@
                 </div>
                 
                 <div style="text-align: center;">
-                    <p id="register-button">Register</p>
+                    <a href="registerteachercontinue.php" id="register-button">Register</a>
                 </div>
                 
                 <p id="or-continue">or continue with</p>
@@ -102,7 +102,7 @@
                 <br>
                 <p id="have-acc">Already have account?</p>
                 <div style="text-align: center; transform: translateY(-10px)">
-                    <a href="#" id="login">Login</a>
+                    <a href="loginteacher.php" id="login">Login</a>
                 </div>
             </div>
         </div>

@@ -52,6 +52,8 @@ html{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    text-decoration: none;
+    transform: translateY(20px);
 }
 
 #header-right-signup{
@@ -63,6 +65,8 @@ html{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    text-decoration: none;
+    transform: translateY(20px);
 }
 
 #header-right-svg{
